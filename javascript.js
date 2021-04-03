@@ -33,7 +33,3 @@ function autoMove() {                       //this function moves the carousel a
   setTimeout(autoMove, 3000);             //this will time the auto mover
 }
     
-
-function myalert() {
-  alert("Thanks, we will get back to you shortly!");
-}

@@ -53,7 +53,6 @@ body {
 .table {
     width: 50%;
     margin: 0 auto;
-
 }
 
 #border {
@@ -207,4 +206,27 @@ body {
 .signup-text {
   text-align: left;
   padding: 1rem;
+}
+
+.space1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.space2 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 3rem;
+}
+
+.cent {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(2, 5, 9, 0.79);
+}
+
+.space-bottom {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }

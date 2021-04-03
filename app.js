@@ -3,8 +3,18 @@ const app = express();
 const port = 5000;
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
+const cookieParser = require('cookie-parser')
+const session = require('express-session')
+
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json())
+app.use(cookieParser('secret'))
+app.use(session({
+    cookie: {
+        maxAge: null
+    }
+}))
 
 mongoose.connect("mongodb+srv://james-admin:jamesmoseley@cluster0.ucovw.mongodb.net/mongo-test-site", { useUnifiedTopology: true }, { useNewUrlParser: true })
 
@@ -16,6 +26,13 @@ const notesSchema= {
 
 const Note = mongoose.model("Note", notesSchema);
 
+//alert
+app.use((req, res, next)=> {
+    res.locals.message = req.session.message
+    delete req.session.message
+    next()
+})
+
 app.post("/", function(req, res) {
     let newNote = new Note({
         n: req.body.n,
@@ -23,8 +40,18 @@ app.post("/", function(req, res) {
         phone: req.body.phone
     });
     newNote.save();
+    req.session.message = {
+        message: 'Thanks for signing up! We will get back to you shortly!'
+    }
     res.redirect("/signup");
 })
+
+
+
+// app.post('/', (req, res)=> {
+    
+//     res.redirect('/')
+// })
 
 const handlebars = require('express-handlebars');
 
@@ -59,5 +86,5 @@ app.get('/snow', (req, res)=> {
 });
 
 app.listen(port, () => {
-    console.log("App is listenign")
+    console.log("App is running on port 5000")
 })
