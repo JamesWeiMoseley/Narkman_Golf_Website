@@ -203,6 +203,7 @@ body {
   box-shadow: 0 10px 40px rgba(2, 5, 9, 0.79);
 }
 
+/* signup page */
 .signup-text {
   text-align: left;
   padding: 1rem;
@@ -214,8 +215,8 @@ body {
 }
 
 .space2 {
-  padding-left: 10rem;
-  padding-right: 10rem;
+  /* padding-left: 10rem;
+  padding-right: 10rem; */
   padding-bottom: 3rem;
 }
 
@@ -223,7 +224,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  box-shadow: 0 10px 40px rgba(2, 5, 9, 0.79);
+  /* box-shadow: 0 10px 40px rgba(2, 5, 9, 0.79); */
 }
 
 .space-bottom {
