@@ -1,7 +1,8 @@
 # Narkman_golf
 
 
-### 🏌️This website was build for the Narkman Golf Academy based in Southern California.  It advertises the school and contains a sign up for potential students.
+## 🏌️
+This website was build for the Narkman Golf Academy based in Southern California.  It advertises the school and contains a sign up for potential students.
 https://narkmangolf.com/
 
 All the pages use Handlebars (hbs).  Styling is done in CSS as well as a few Bootstrap attributes. 
