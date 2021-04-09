@@ -15,11 +15,11 @@ Twilio plugin is used for text alerts.
 
 
 
-***
++---------------------------------------------+
 
 All code was written in VSCode version 1.55.1 <br>
 Node.js version 14.15.4
 
-***
++---------------------------------------------+
 
 Narkman Golf is a Southern California Golf School founded in 2018 based at the Whittier Narrows Golf Course in Rosemeand California. Link to the golf course website: https://www.whittiernarrowsgc.com/
