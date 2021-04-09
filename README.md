@@ -8,10 +8,10 @@ Node.js was used for backend.  The server uses express-sessions.
 Databases use NoSQL which consists of MongoDB and Mongoose.  
 Twilio plugin is used for text alerts.  
 
-###
+***
 
 All code was written in VSCode version 1.55.1
 
-###
+***
 
 Narkman Golf is a Southern California Golf School founded in 2018 based at the Whittier Narrows Golf Course in Rosemeand California. Link to the golf course website: https://www.whittiernarrowsgc.com/
