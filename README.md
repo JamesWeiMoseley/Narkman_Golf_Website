@@ -10,14 +10,12 @@ Node.js was used for backend.  The server uses express-sessions.
 Databases use NoSQL which consists of MongoDB and Mongoose.  
 Twilio plugin is used for text alerts.  
 
+
+
+
 ***
 
-
-
-
-***
-
-All code was written in VSCode version 1.55.1
+All code was written in VSCode version 1.55.1 <br>
 Node.js version 14.15.4
 
 ***
