@@ -13,7 +13,7 @@ Databases use NoSQL which consists of MongoDB and Mongoose.
 Twilio plugin is used for text alerts.  
 
 
-###
+***
 Version 2.0 (this repo) : https://narkman-golf-website.herokuapp.com/
 
 ![alt text](https://github.com/JamesWeiMoseley/Narkman_golf/blob/master/public/pics/signup.png?raw=true)
