@@ -12,7 +12,7 @@ Node.js was used for backend.  The server uses express-session.
 Databases use NoSQL which consists of MongoDB and Mongoose.  
 Twilio plugin is used for text alerts.  
 
-Version 2.0 (this repo) : narkman-golf-website.herokuapp.com/
+Version 2.0 (this repo) : https://narkman-golf-website.herokuapp.com/
 
 
 
